@@ -1,0 +1,118 @@
+@font-face {
+  font-family: NovoSquare;
+  src: url(./NovaSquare-Regular.ttf);
+}
+
+html, body {
+  margin: 0px;
+  font-family: NovoSquare;
+  background-color: black;
+  color: white
+}
+
+.section-element {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+  height: 200px;
+  margin-bottom: -65px;
+  position: relative;
+  color: black;
+}
+
+.section-element::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 calc(100% - 5px), calc(100% - 5px) calc(100% - 65px), calc(100% - 5px) 5px, 5px 65px, 5px calc(100% - 5px), 0 calc(100% - 5px));
+}
+
+.element-content {
+  margin-top: -20px;
+  width: 55%;
+  text-align: center;
+}
+
+.right .element-content {
+  float: right;
+}
+
+.left {
+  right: 0px;
+  left: unset !important;
+  background-position: right;
+}
+
+.img {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-attachment: fixed;
+  height: 200%;
+  width: 45%;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  background-size: calc(45% + 5px);
+  background-repeat: no-repeat;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.cyan a, .orange a {
+  color: blueviolet;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+.grey a {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skill-yellow, .skill-green, .skill-blue, .skill-pink, .skill-brown {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 50px;
+}
+
+.skill-yellow {
+  background: yellow;
+}
+
+.skill-green {
+  background: lime;
+}
+
+.skill-pink {
+  background: pink;
+}
+
+.skill-blue {
+  background: blue;
+  color: white;
+}
+
+.skill-brown {
+  background: #965e36;
+  color: white
+}
