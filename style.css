@@ -58,6 +58,7 @@ html, body {
   border-left: 5px solid black;
   background-size: calc(45% + 5px);
   background-repeat: no-repeat;
+  background-color: black;
 }
 
 .cyan {
@@ -97,14 +98,17 @@ a {
 
 .skill-yellow {
   background: yellow;
+  color: black;
 }
 
 .skill-green {
   background: lime;
+  color: black;
 }
 
 .skill-pink {
   background: pink;
+  color: black;
 }
 
 .skill-blue {
@@ -115,4 +119,8 @@ a {
 .skill-brown {
   background: #965e36;
   color: white
+}
+
+.about-content {
+  width: 800px;
 }
