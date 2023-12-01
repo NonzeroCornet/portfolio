@@ -110,7 +110,7 @@ html::-webkit-scrollbar-thumb:active {
   padding-top: 100px;
   padding-bottom: 100px;
   clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
-  height: 200px;
+  height: 400px;
   margin-bottom: -65px;
   position: relative;
   color: black;
@@ -231,4 +231,14 @@ a {
 .languages {
   line-height: 2.5;
   width: 800px;
+}
+
+.hireme-container {
+  border-top: 1px solid grey;
+  width: 1200px;
+}
+
+.contact-info {
+  background: #1f1f1f;
+  color: white;
 }
