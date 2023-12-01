@@ -68,6 +68,7 @@ html::-webkit-scrollbar {
   width: 20px;
   height: 20px;
 }
+
 html::-webkit-scrollbar-track {
   background-color: black;
 }
@@ -137,6 +138,10 @@ html::-webkit-scrollbar-thumb:active {
   float: right;
 }
 
+h3 {
+  padding: 10px;
+}
+
 .left {
   right: 0px;
   left: unset !important;
@@ -196,7 +201,7 @@ a {
   padding: 5px;
   margin-top: 5px;
   border-radius: 50px;
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 
 .skill-yellow {
@@ -225,17 +230,18 @@ a {
 }
 
 .about-content {
-  width: 800px;
+  max-width: 800px;
 }
 
 .languages {
   line-height: 2.5;
-  width: 800px;
+  max-width: 800px;
 }
 
 .hireme-container {
   border-top: 1px solid grey;
-  width: 1200px;
+  max-width: 1200px;
+  padding: 20px;
 }
 
 .contact-info {
