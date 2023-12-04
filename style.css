@@ -202,6 +202,7 @@ a {
   margin-top: 5px;
   border-radius: 50px;
   text-transform: capitalize;
+  text-wrap: nowrap;
 }
 
 .skill-yellow {
@@ -231,6 +232,8 @@ a {
 
 .about-content {
   max-width: 800px;
+  height: 361px;
+  padding-bottom: 0px;
 }
 
 .languages {
@@ -252,4 +255,19 @@ a {
 
 p {
   padding: 50px;
+}
+
+@media only screen and (max-width: 800px), only screen and (max-height: 600px) {
+  .about-content .skill-yellow,
+  .about-content .skill-green,
+  .about-content .skill-blue,
+  .about-content .skill-pink,
+  .about-content .skill-brown,
+  .img {
+    display: none;
+  }
+
+  .element-content {
+    width: 100%;
+  }
 }

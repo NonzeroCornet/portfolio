@@ -8,6 +8,10 @@ for (let i = 0; i < spanLinks.length; i++) {
   });
 }
 
-if (window.innerWidth <= 800 || window.innerHeight <= 600) {
-  window.location.href = "/m";
-}
+window.onresize = function() {
+  if (window.innerWidth <= 800 || window.innerHeight <= 600) {
+    document.getElementById("in").innerHTML = ".";
+  } else {
+    document.getElementById("in").innerHTML = " in:";
+  }
+};
