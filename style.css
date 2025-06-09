@@ -210,3 +210,10 @@ p {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .about-content {
+    margin-bottom: 150px;
+    margin-top: -50px;
+  }
+}
